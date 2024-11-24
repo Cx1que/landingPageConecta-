@@ -1,0 +1,9 @@
+.header{
+    background-color: var(--preto);
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--branco);
+    text-align: center;
+}

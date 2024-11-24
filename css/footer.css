@@ -1,0 +1,13 @@
+.container__footer{
+    background-color: var(--preto);
+    height: 10%;
+    text-align: center;
+}
+
+.footer__texto{
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    padding-top: 1.5em;
+}
