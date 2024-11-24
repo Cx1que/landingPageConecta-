@@ -1,0 +1,10 @@
+@import url("./landingPageConectaPlus/css/header.css");
+@import url("./landingPageConectaPlus/css/main.css");
+@import url("./landingPageConectaPlus/css/footer.css");
+
+:root{
+    --fonte-principal: 'Poppins', sans-serif;
+    --preto: #000;
+    --branco: #fff;
+    --cinza: #B7B7B7;
+}
