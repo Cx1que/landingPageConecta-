@@ -1,6 +1,6 @@
-@import url("./landingPageConectaPlus/css/header.css");
-@import url("./landingPageConectaPlus/css/main.css");
-@import url("./landingPageConectaPlus/css/footer.css");
+@import url("css/header.css");
+@import url("css/main.css");
+@import url("css/footer.css");
 
 :root{
     --fonte-principal: 'Poppins', sans-serif;

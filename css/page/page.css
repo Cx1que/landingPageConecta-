@@ -1,0 +1,141 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+  
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  
+/* Header */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+  
+.header .logo {
+  font-size: 1.5rem;
+}
+  
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+  
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+  
+.navbar a.btn {
+  background: #f39c12;
+  border-radius: 5px;
+}
+  
+.navbar a:hover {
+  background: #e67e22;
+}
+  
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #3498db;
+  color: #fff;
+}
+  
+.hero h2 {
+  font-size: 2rem;
+}
+  
+.hero .btn-primary {
+  background: #e74c3c;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+  
+.hero .btn-primary:hover {
+  background: #c0392b;
+}
+  
+/* Section */
+.section {
+  padding: 2rem 1rem;
+}
+  
+.section.bg-light {
+  background: #f4f4f4;
+}
+  
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+  
+/* Card */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+  
+/* Form */
+.form input, .form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+  
+.form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+  
+.form button:hover {
+  background: #2980b9;
+}
+  
+/* Call to Action */
+.cta {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #2ecc71;
+  color: #fff;
+}
+  
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+  
