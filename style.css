@@ -4,7 +4,8 @@
 
 :root{
     --fonte-principal: 'Poppins', sans-serif;
-    --preto: #000;
+    --preto: #333;
     --branco: #fff;
     --cinza: #B7B7B7;
+    --azul: #3498db;
 }
