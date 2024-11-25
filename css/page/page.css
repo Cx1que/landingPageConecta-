@@ -24,12 +24,13 @@ body {
 
 .container h1 {
   font-weight: 600;
+  color: #fff;
 }
 
   
 /* Header */
 .header {
-  background: #333;
+  background: #394867;
   color: #fff;
   padding: 1rem 0;
 }
@@ -63,7 +64,7 @@ body {
 .hero {
   text-align: center;
   padding: 3rem 1rem;
-  background: #3498db;
+  background: #9BA4B5;
   color: #fff;
 }
   
@@ -106,6 +107,7 @@ body {
   border: 1px solid #ddd;
   padding: 1rem;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
   
 /* Form */
@@ -134,7 +136,7 @@ body {
 .cta {
   text-align: center;
   padding: 2rem 1rem;
-  background: #2ecc71;
+  background:#2ecc71;   
   color: #fff;
 }
   
@@ -142,7 +144,7 @@ body {
 .footer {
   text-align: center;
   padding: 1rem;
-  background: #333;
+  background: #394867;
   color: #fff;
 }
 
@@ -154,6 +156,18 @@ body {
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 0.5em;
+}
+
+.cta__titulo{
+  font-weight: 500;
+}
+
+.cta__texto{
+  font-weight: 400;
+}
+
+.btn-btn-primary__a{
+  font-weight: 500;
 }
 
 
