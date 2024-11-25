@@ -1,13 +1,13 @@
 .container__main{
     font-family: var(--fonte-principal);
-    background-color: var(--preto);
+    background-color: var(--azul-bgc);
     padding: 2em;
 }
 
 .titulo__main{
     padding: 0.5em 0 0em 1em;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 38px;
+    font-weight: 600;
     color: var(--branco);
 }
 
